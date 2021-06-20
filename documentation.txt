@@ -28,3 +28,6 @@ If we want to --allow-unrelated-histories make a pull with a new repository from
 Create a tag:
 	git tag -a version -m "message" commit_id
 	git tag -a v0.1 -m "This is my new tag" ead507b6a4f32a
+
+Show all tag information:
+	git show-ref --tags
