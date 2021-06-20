@@ -34,3 +34,11 @@ Show all tag information:
 
 Pusing tags:
 	git push origin --tags
+
+Deleting a tag:
+ git tag -d tag_name && git push origin --tags
+ locally
+
+Deleting a tag from github.
+	git push origin :refs/tags/tag_name
+	origin
