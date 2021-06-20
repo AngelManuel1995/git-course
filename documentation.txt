@@ -31,3 +31,6 @@ Create a tag:
 
 Show all tag information:
 	git show-ref --tags
+
+Pusing tags:
+	git push origin --tags
