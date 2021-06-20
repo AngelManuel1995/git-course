@@ -42,3 +42,6 @@ Deleting a tag:
 Deleting a tag from github.
 	git push origin :refs/tags/tag_name
 	origin
+
+
+Data to commit cabecera
