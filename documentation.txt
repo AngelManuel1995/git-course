@@ -42,3 +42,12 @@ Deleting a tag:
 Deleting a tag from github.
 	git push origin :refs/tags/tag_name
 	origin
+
+Using git stash.
+	We can use git stash to save our changes in memory if we want to go to other branch without conflics.
+	git stash. To init the stash
+	git stash pop. To finish the stash.
+
+
+
+
