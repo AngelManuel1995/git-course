@@ -50,4 +50,36 @@ Using git stash.
   git stash branch branch_name. Id we want to create a branch with the content is the stash.
   git stash drop. If we want to delete a stash and undo the changes we don't want.
 
+Using git cherry-pick.
+  git cherry pick commit_id. We use git cherry-pick if we want to bring a commit from another branch to the master branch.
 
+Using git reflog.
+	We can use git reflog if we want to wash all the history of logs.
+
+Using git grep.
+	Is we want to filter of a word in the history
+	flags:
+		-n: number of times.
+
+Filtering by commits:
+	git log -s "Word to filter"
+
+git shortlog: If we want to known Who made which commit.	
+	flags: 
+		-sn 
+		--all
+		--no-merges
+
+Creating alias.
+	git config --global alias.stats "command and flags".
+	git config --global alias.stats "shortlog -sn --all --no-merges".
+
+git blame. If we want to know who made what in the files.
+flags:
+	-c
+
+
+git branch 
+	flags: 
+		-r: To list the remote branches.
+		-a: To listo all the branches. locals and remotes.
