@@ -48,6 +48,6 @@ Using git stash.
 	git stash. To init the stash
 	git stash pop. To finish the stash.
   git stash branch branch_name. Id we want to create a branch with the content is the stash.
-
+  git stash drop. If we want to delete a stash and undo the changes we don't want.
 
 
